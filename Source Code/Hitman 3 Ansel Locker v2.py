@@ -36,32 +36,11 @@ def replace_hex_codes(file_path, changes):
     except Exception as e:
         print(f"Error: {e}")
 
-def invert_hex_codes(file_path, changes):
-    try:
-        with open(file_path, 'rb') as file:
-            content = bytearray(file.read())
-            
-            for change in changes:
-                old_hex = change['old_hex']
-                new_hex = change['new_hex']
-                
-                for i in range(len(content) - len(old_hex) + 1):
-                    if all(content[i + j] == new_hex[j] for j in range(len(new_hex))):
-                        content[i:i + len(new_hex)] = old_hex
-            
-        with open(file_path, 'wb') as file:
-            file.write(content)
-            
-        print(f"Hex codes inverted successfully in {file_path}")
-    except Exception as e:
-        print(f"Error: {e}")
-
 def main():
     file_path = find_hitman3_exe()
     if file_path:
         print(f"HITMAN 3 executable found at: {file_path}")
         replace_hex_codes(file_path, changes)
-        invert_hex_codes(file_path, changes)
     else:
         print("HITMAN 3 executable not found.")
 
