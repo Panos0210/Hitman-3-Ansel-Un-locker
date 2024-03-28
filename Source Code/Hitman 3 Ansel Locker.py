@@ -1,6 +1,5 @@
 changes = [
     {'old_hex': b'\x83\xF8\x0F\xEB\x1C\x0F\x54', 'new_hex': b'\x83\xF8\x0F\x75\x1C\x0F\x54'},
-    # Add more entries as needed
 ]
 
 file_path = r'C:\Program Files (x86)\Steam\steamapps\common\HITMAN 3\Retail\HITMAN3.exe'
