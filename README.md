@@ -5,7 +5,7 @@ an app that changes the hex of the hitman 3 exe to unlock ansel it (doesnt unloc
 It only supports the Steam Version for now but you can just add the Epic-Xbox path when you download the .py files and then make it to an .exe but i will try to make a Epic and Xbox verison in the future
 
 # How to use
-just open the locker if you wan to lock it or open the unlocker if you want to lock it and wait
+just open the locker if you wan to lock it or open the unlocker if you want to unlock it and wait
 
 # Credits
 I am not the founder of this exploit you could say it i just made it an app  i found the wway here: https://rentry.org/hitman3ansel 
