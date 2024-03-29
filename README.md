@@ -4,6 +4,8 @@ an app that changes the hex of the hitman 3 exe to unlock ansel it (doesnt unloc
 # Compatibilities
 It only supports the Steam Version for now but you can just add the Epic-Xbox path when you download the .py files and then make it to an .exe but i will try to make a Epic and Xbox verison in the future
 
+(note: after v2.0 it is made to find the \Hitman 3\Retail\HITMAN3.exe dir so if the two other platforms install the game like this they are supported)
+
 # How to use
 just open the locker if you wan to lock it or open the unlocker if you want to unlock it and wait
 
